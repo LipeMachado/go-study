@@ -1,27 +1,20 @@
 package main
 
 import (
-	//Pode renomear o pacote colocando atras do "link"...
-	"fmt"
-
+	"github.com/LipeMachado/go-study/introducao"
 	"github.com/LipeMachado/go-study/meet"
+	"github.com/LipeMachado/go-study/tiposbasicos"
 )
 
 func main() {
-	meet.Say("Hello Lipe!")
-	meet.SayHello()
-
-	//Variaveis
-	//palavra reservada "var" nome da variavel tipo
-	var x int = 10
-	fmt.Println(x)
-
-	//Declaração curta
-	texto := "Olá"
-	texto += "Mundo"
-	fmt.Println(texto)
-
-	//Constantes
-	const PI float64 = 3.1415
-	fmt.Println(PI)
+	meet.Say("Estudando Go")
+	introducao.Introducao()
+	introducao.Variaveis()
+	introducao.DeclaracaoCurta()
+	introducao.Constantes()
+	tiposbasicos.BasicTypes()
+	tiposbasicos.Int()
+	tiposbasicos.Float()
+	tiposbasicos.TipoBoleano()
+	tiposbasicos.String()
 }
