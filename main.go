@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	//Pode renomear o pacote colocando atras do "link"...
+	"github.com/LipeMachado/go-study/meet"
+)
 
-func main(){
-	fmt.Println("Hello, Word!")
+func main() {
+	meet.Say("Hello Lipe!")
+	meet.SayHello()
 }
