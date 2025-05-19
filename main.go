@@ -1,20 +1,28 @@
 package main
 
 import (
-	"github.com/LipeMachado/go-study/introducao"
+	basictypes "github.com/LipeMachado/go-study/basictypes"
+	"github.com/LipeMachado/go-study/compoundtypes"
+	introduction "github.com/LipeMachado/go-study/introduction"
 	"github.com/LipeMachado/go-study/meet"
-	"github.com/LipeMachado/go-study/tiposbasicos"
 )
 
 func main() {
 	meet.Say("Estudando Go")
-	introducao.Introducao()
-	introducao.Variaveis()
-	introducao.DeclaracaoCurta()
-	introducao.Constantes()
-	tiposbasicos.BasicTypes()
-	tiposbasicos.Int()
-	tiposbasicos.Float()
-	tiposbasicos.TipoBoleano()
-	tiposbasicos.String()
+	//Introdução
+	introduction.Introducao()
+	introduction.Variaveis()
+	introduction.DeclaracaoCurta()
+	introduction.Constantes()
+	//Tipos Básicos
+	basictypes.BasicTypes()
+	basictypes.Int()
+	basictypes.Float()
+	basictypes.TipoBoleano()
+	basictypes.String()
+	//Tipos Compostos
+	compoundtypes.CompoundTypes()
+	compoundtypes.Arrays()
+	compoundtypes.Slices()
+	compoundtypes.Maps()
 }
