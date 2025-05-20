@@ -3,6 +3,7 @@ package main
 import (
 	basictypes "github.com/LipeMachado/go-study/basictypes"
 	"github.com/LipeMachado/go-study/compoundtypes"
+	"github.com/LipeMachado/go-study/controlflows"
 	introduction "github.com/LipeMachado/go-study/introduction"
 	"github.com/LipeMachado/go-study/meet"
 )
@@ -25,4 +26,8 @@ func main() {
 	compoundtypes.Arrays()
 	compoundtypes.Slices()
 	compoundtypes.Maps()
+	//Fluxos de Controle
+	controlflows.ControlFlows()
+	controlflows.IfElse()
+	controlflows.SwitchCase()
 }
