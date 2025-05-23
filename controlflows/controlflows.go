@@ -60,3 +60,28 @@ func SwitchCase() {
 		fmt.Println("Ta longe ainda")
 	}
 }
+
+func ForLoop() {
+	meet.Bar()
+	meet.Say("For Loop")
+	//for inicialização; expressao; fim interação
+	num := 0
+	for i := 0; i < 5; i++ {
+		fmt.Println(i)
+		num += i
+	}
+	fmt.Println(num)
+
+	meet.Bar()
+	listNums := []int{24, 32, 13, 52, 73, 29}
+
+	for i := 0; i < len(listNums); i++ {
+		fmt.Println(listNums[i])
+	}
+}
+
+func RangeLoop() {
+	meet.Bar()
+	meet.Say("Range Loop")
+
+}

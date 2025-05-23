@@ -30,4 +30,6 @@ func main() {
 	controlflows.ControlFlows()
 	controlflows.IfElse()
 	controlflows.SwitchCase()
+	controlflows.ForLoop()
+	controlflows.RangeLoop()
 }
